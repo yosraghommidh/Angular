@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'training-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('training-app');
   });
 
   it('should render title', () => {
@@ -29,3 +28,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('training-app app is running!');
   });
 });
+
+
